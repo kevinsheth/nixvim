@@ -20,17 +20,16 @@
         "x86_64-darwin"
         "aarch64-darwin"
       ];
-
       perSystem = {
         pkgs,
         system,
         ...
       }: let
         pkgs = import nixpkgs {
-        inherit system;
-        config = {
-        allowUnfree = true;
-        };
+          inherit system;
+          config = {
+            allowUnfree = true;
+          };
         };
         nixvimLib = nixvim.lib.${system};
         nixvim' = nixvim.legacyPackages.${system};

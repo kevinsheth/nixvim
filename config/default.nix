@@ -20,5 +20,7 @@
     tabstop = 2;
     relativenumber = true;
     wrap = true;
+    number = true;
+    showcmd = true;
   };
 }
