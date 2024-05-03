@@ -23,5 +23,6 @@
     #    ./illuminate.nix
     #    ./indent-blankline.nix
     ./plugins/trouble.nix
+    ./plugins/lspkind.nix
   ];
 }
