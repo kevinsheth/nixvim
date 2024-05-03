@@ -9,14 +9,14 @@ mapping = {
           "<C-f>" = "cmp.mapping.scroll_docs(4)";
           "<C-Space>" = "cmp.mapping.complete()";
           "<C-e>" = "cmp.mapping.close()";
-          "<Tab>" = {
-            modes = ["i" "s"];
-            action = "cmp.mapping.select_next_item()";
-          };
-          "<S-Tab>" = {
-            modes = ["i" "s"];
-            action = "cmp.mapping.select_prev_item()";
-          };
+#          "<Tab>" = {
+#            modes = ["i" "s"];
+#            action = "cmp.mapping.select_next_item()";
+#          };
+#          "<S-Tab>" = {
+#            modes = ["i" "s"];
+#            action = "cmp.mapping.select_prev_item()";
+#          };
           "<CR>" = "cmp.mapping.confirm({ select = true })";
         };
 
@@ -34,5 +34,5 @@ mapping = {
         ];
 };
   };
-  };
+};
 }

@@ -10,6 +10,7 @@
   outputs = {
     nixvim,
     flake-parts,
+    nixpkgs,
     ...
   } @ inputs:
     flake-parts.lib.mkFlake {inherit inputs;} {
@@ -25,6 +26,12 @@
         system,
         ...
       }: let
+        pkgs = import nixpkgs {
+        inherit system;
+        config = {
+        allowUnfree = true;
+        };
+        };
         nixvimLib = nixvim.lib.${system};
         nixvim' = nixvim.legacyPackages.${system};
         nixvimModule = {
