@@ -16,5 +16,17 @@
       action = "<cmd>BufferLineCyclePrev<CR>";
       key = "<S-tab>";
     }
+    {
+      action = "<cmd>BufferKill<CR>";
+      key = "<leader>x";
+    }
+    {
+      action = "<cmd>NullLsInfo<CR>";
+      key = "<leader>Ni";
+    }
+    {
+      action = "<cmd>NullLsLog<CR>";
+      key = "<leader>Nl";
+    }
   ];
 }

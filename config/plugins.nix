@@ -22,5 +22,6 @@
     #    ./toggleterm.nix
     #    ./illuminate.nix
     #    ./indent-blankline.nix
+    ./plugins/trouble.nix
   ];
 }

@@ -29,6 +29,16 @@
           alejandra.enable = true;
           stylua.enable = true;
           ocamlformat.enable = true;
+          black.enable = true;
+          yamlfmt.enable = true;
+        };
+        completion.luasnip.enable = true;
+
+        diagnostics = {
+          deadnix.enable = true;
+          ktlint.enable = true;
+          mypy.enable = true;
+          pylint.enable = true;
         };
       };
     };
