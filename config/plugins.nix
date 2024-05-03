@@ -4,7 +4,7 @@
     ./plugins/telescope.nix
     ./plugins/treesitter.nix
     ./plugins/nvim-tree.nix
-    .plugins/codeium.nix
+    ./plugins/codeium.nix
     ./plugins/lsp.nix
     ./plugins/cmp.nix
     ./plugins/lazy.nix
