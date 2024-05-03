@@ -18,6 +18,10 @@
         ocamllsp = {
           enable = true;
         };
+
+        pyright = {
+          enable = true;
+        };
       };
     };
 
