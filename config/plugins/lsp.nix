@@ -44,6 +44,10 @@
           mypy.enable = true;
           pylint.enable = true;
         };
+
+        hover = {
+          dictionary.enable = true;
+        };
       };
     };
   };
