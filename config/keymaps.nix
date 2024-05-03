@@ -28,5 +28,29 @@
       action = "<cmd>NullLsLog<CR>";
       key = "<leader>Nl";
     }
+    {
+      action = "<cmd>lua vim.lsp.buf.hover()<CR>";
+      key = "K";
+    }
+    {
+      action = "<cmd>lua vim.lsp.buf.definition()<CR>";
+      key = "gd";
+    }
+    {
+      action = "<cmd>lua vim.lsp.buf.declaration()<CR>";
+      key = "gD";
+    }
+    {
+      action = "<cmd>lua vim.lsp.buf.references()<CR>";
+      key = "gr";
+    }
+    {
+      action = "<cmd>lua vim.lsp.buf.implementation()<CR>";
+      key = "gI";
+    }
+    {
+      action = "<cmd>lua vim.lsp.buf.signature_help()<CR>";
+      key = "gs";
+    }
   ];
 }
