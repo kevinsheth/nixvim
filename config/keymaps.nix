@@ -11,6 +11,11 @@
       options.desc = "Find File";
     }
     {
+      action = "<cmd>Telescope live_grep<CR>";
+      key = "<leader>fg";
+      options.desc = "Live Grep";
+    }
+    {
       action = "<cmd>BufferLineCycleNext<CR>";
       key = "<tab>";
     }
