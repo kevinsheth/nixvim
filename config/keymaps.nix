@@ -1,6 +1,12 @@
 {
   keymaps = [
     {
+      action = "<C-\\><C-n>";
+      key = "<Esc>";
+      options.desc = "Escape";
+      mode = "t";
+    }
+    {
       action = "<cmd>NvimTreeToggle><CR>";
       key = "<C-n>";
       options.desc = "Explorer";
@@ -60,6 +66,16 @@
       action = "<cmd>lua vim.lsp.buf.signature_help()<CR>";
       key = "gs";
       options.desc = "Show signature help";
+    }
+    {
+      action = "<cmd>ToggleTerm<CR>";
+      key = "<C-t>";
+      options.desc = "Toggle terminal";
+    }
+    {
+      action = ":noh<CR>";
+      key = "<esc>";
+      options.desc = "Clear search";
     }
   ];
 }
