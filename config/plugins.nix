@@ -19,10 +19,11 @@
     ./plugins/navic.nix
     ./plugins/dap.nix
     ./plugins/alpha.nix
-    #    ./toggleterm.nix
-    #    ./illuminate.nix
-    #    ./indent-blankline.nix
+    ./plugins/toggleterm.nix
+    ./plugins/illuminate.nix
+    ./plugins/indent-blankline.nix
     ./plugins/trouble.nix
     ./plugins/lspkind.nix
+    ./plugins/twilight.nix
   ];
 }
