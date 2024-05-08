@@ -7,7 +7,6 @@
     ./plugins/codeium.nix
     ./plugins/lsp.nix
     ./plugins/cmp.nix
-    ./plugins/lazy.nix
     ./plugins/friendly-snippets.nix
     ./plugins/luasnip.nix
     ./plugins/comment.nix
