@@ -22,6 +22,10 @@
         pyright = {
           enable = true;
         };
+
+        terraformls = {
+          enable = true;
+        };
       };
     };
 
@@ -35,6 +39,7 @@
           ocamlformat.enable = true;
           black.enable = true;
           yamlfmt.enable = true;
+          terraform_fmt.enable = true;
         };
         completion.luasnip.enable = true;
 
@@ -43,6 +48,7 @@
           ktlint.enable = true;
           mypy.enable = true;
           pylint.enable = true;
+          terraform_validate.enable = true;
         };
 
         hover = {
