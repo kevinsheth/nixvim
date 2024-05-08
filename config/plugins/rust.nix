@@ -4,9 +4,13 @@
   };
 
   plugins.rustaceanvim = {
-    enable = true;
+    enable = false;
   };
   plugins.crates-nvim = {
+    enable = true;
+  };
+
+  plugins.rust-tools = {
     enable = true;
   };
 }
