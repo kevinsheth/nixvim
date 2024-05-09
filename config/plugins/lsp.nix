@@ -36,10 +36,6 @@
           enable = true;
         };
 
-        pyright = {
-          enable = true;
-        };
-
         terraformls = {
           enable = true;
         };
@@ -54,7 +50,6 @@
           alejandra.enable = true;
           stylua.enable = true;
           ocamlformat.enable = true;
-          black.enable = true;
           yamlfmt.enable = true;
           terraform_fmt.enable = true;
         };
@@ -62,8 +57,6 @@
         diagnostics = {
           deadnix.enable = true;
           ktlint.enable = true;
-          mypy.enable = true;
-          pylint.enable = true;
           terraform_validate.enable = true;
         };
 
