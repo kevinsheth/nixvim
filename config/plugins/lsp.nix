@@ -4,6 +4,23 @@
 
     lsp = {
       enable = true;
+      onAttach = "require('cmp_nvim_lsp').on_attach()";
+      capabilities = "require('cmp_nvim_lsp').default_capabilities()";
+
+      keymaps = {
+        diagnostic = {
+          "<leader>j" = "goto_next";
+          "<leader>k" = "goto_prev";
+        };
+        lspBuf = {
+          K = "hover";
+          gD = "references";
+          gd = "definition";
+          gi = "implementation";
+          gt = "type_definition";
+          gs = "signature_help";
+        };
+      };
 
       servers = {
         lua-ls = {
@@ -41,7 +58,6 @@
           yamlfmt.enable = true;
           terraform_fmt.enable = true;
         };
-        completion.luasnip.enable = true;
 
         diagnostics = {
           deadnix.enable = true;

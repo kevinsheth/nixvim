@@ -25,6 +25,5 @@
     ./plugins/lspkind.nix
     ./plugins/twilight.nix
     ./plugins/rust.nix
-    ./plugins/neorg.nix
   ];
 }
