@@ -27,5 +27,6 @@
     ./plugins/rust.nix
     ./plugins/python.nix
     ./plugins/bash.nix
+    ./plugins/frontend.nix
   ];
 }
