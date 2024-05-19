@@ -7,7 +7,10 @@
     };
 
     none-ls.sources.formatting = {
-      prettier.enable = true;
+      prettier = {
+        enable = true;
+        disableTsServerFormatter = true;
+      };
     };
   };
 }
