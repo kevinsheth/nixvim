@@ -26,5 +26,6 @@
     ./plugins/twilight.nix
     ./plugins/rust.nix
     ./plugins/python.nix
+    ./plugins/bash.nix
   ];
 }
